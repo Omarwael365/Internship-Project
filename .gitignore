@@ -1,0 +1,49 @@
+# ========================
+#  Frontend (Angular)
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/out-tsc/
+frontend/tmp/
+frontend/bazel-out/
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+# ========================
+#  Backend (Spring Boot)
+# ========================
+backend/target/
+backend/*.jar
+backend/*.war
+backend/*.class
+
+# ========================
+#  IDEs & Editors
+# ========================
+.idea/
+.vscode/
+*.sublime-workspace
+*.launch
+.project
+.classpath
+.settings/
+.c9/
+.history/
+*.iml
+
+# ========================
+#  OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+#  Miscellaneous
+# ========================
+*.log
+*.tmp
+*.swp
+*.swo
+*~
